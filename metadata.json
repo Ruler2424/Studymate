@@ -1,0 +1,5 @@
+{
+  "name": "Studymate",
+  "description": "An AI-powered assistant to help students solve homework problems and get clear, step-by-step explanations. Just type your question or upload a photo of your assignment.",
+  "requestFramePermissions": []
+}
