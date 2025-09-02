@@ -2,11 +2,11 @@
 import { GoogleGenAI, Type, Modality, Chat } from "@google/genai";
 import { v4 as uuidv4 } from 'uuid'; // A temporary measure until the model can generate IDs
 
-if (!process.env.API_KEY) {
+if (!process.env.GEMINI_API_KEY) {
     throw new Error("API_KEY environment variable is not set");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export interface ScheduleEvent {
     id: string;
